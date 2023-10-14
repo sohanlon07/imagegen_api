@@ -31,7 +31,7 @@ app.get("/status", (req, res) => {
         "Status": "Running"
     };
 
-    response.send(status)
+    res.send(status)
 });
 
 app.post("/sendData", async(req, res) => {
@@ -58,8 +58,3 @@ app.post("/sendData", async(req, res) => {
         res.status(500).json({ error: 'Internal Server Error' });
     }
 });
-
-
-
-
-
