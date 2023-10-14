@@ -1,0 +1,22 @@
+{
+  "name": "imagegen_api",
+  "version": "1.0.0",
+  "description": "api endpoint to connect to image generation ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohanlon07/imagegen_api.git"
+  },
+  "author": "sohanlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sohanlon07/imagegen_api/issues"
+  },
+  "homepage": "https://github.com/sohanlon07/imagegen_api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
